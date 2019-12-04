@@ -1,0 +1,118 @@
+/*Borders*/
+.b-0 {
+    border: 0 !important; }
+
+.bt-0 {
+    border-top: 0 !important; }
+
+.bb-0 {
+    border-bottom: 0 !important; }
+
+.b-a {
+    border: 1px solid rgba(0, 0, 0, 0.05) !important; }
+
+.b-r {
+    border-right: 1px solid rgba(0, 0, 0, 0.05) !important; }
+
+.b-b {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important; }
+
+.b-l {
+    border-left: 1px solid rgba(0, 0, 0, 0.05) !important; }
+
+.b-t {
+    border-top: 1px solid rgba(0, 0, 0, 0.05) !important; }
+
+.b-dashed {
+    border-style: dashed !important; }
+
+.b-solid {
+    border-color: #ddd !important; }
+
+.b-2x {
+    border-width: 2px !important; }
+
+.b-3x {
+    border-width: 3px !important; }
+
+.b-4x {
+    border-width: 4px !important; }
+
+.b-5x {
+    border-width: 5px !important; }
+
+
+.b-cyan {
+    border-color: #22beef !important; }
+
+.b-amethyst {
+    border-color: #cd97eb !important; }
+
+.b-green {
+    border-color: #a2d200 !important; }
+
+.b-orange {
+    border-color: #ffc100 !important; }
+
+.b-red {
+    border-color: #ff4a43 !important; }
+
+.b-greensea {
+    border-color: #16a085 !important; }
+
+.b-dutch {
+    border-color: #1693A5 !important; }
+
+.b-hotpink {
+    border-color: #FF0066 !important; }
+
+.b-drank {
+    border-color: #A40778 !important; }
+
+.b-blue {
+    border-color: #418bca !important; }
+
+.b-lightred {
+    border-color: #e05d6f !important; }
+
+.b-slategray {
+    border-color: #3f4e62 !important; }
+
+.b-darkgray {
+    border-color: #333 !important; }
+
+.b-primary {
+    border-color: #428bca !important; }
+
+.b-success {
+    border-color: #5cb85c !important; }
+
+.b-warning {
+    border-color: #f0ad4e !important; }
+
+.b-danger {
+    border-color: #d9534f !important; }
+
+.b-info {
+    border-color: #5bc0de !important; }
+
+.b-default {
+    border-color: #616f77 !important; }
+
+.br-0 {
+    border-radius: 0 !important; }
+
+.br-2 {
+    border-radius: 2px !important; }
+
+.br-2-l {
+    border-radius: 2px 0 0 2px !important; }
+
+.br-2-r {
+    border-radius: 0 2px 2px 0 !important; }
+
+.br-2-t {
+    border-radius: 2px 2px 0 0 !important; }
+
+.br-2-b {
+    border-radius: 0 0 2px 2px !important; }

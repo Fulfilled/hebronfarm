@@ -1,0 +1,38 @@
+.formcontainer{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+bar{
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3rem;
+    /* 
+    class="font-weight-500 my-2 py-1"
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem; */
+}
+
+
+
+.footer {
+    height: 20rem;
+  }
+  .address {
+    display: flex;
+    justify-content: left;
+  }
+  .first,
+  .second,
+  .third {
+    padding: 0 3rem;
+  }
+  
+  .third {
+    margin-left: auto;
+  }
+  

@@ -1,0 +1,23 @@
+body {
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+  // font-family: "Noto Serif", serif;
+  line-height: 2;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+}
+
+.banner {
+  background-image: url(https://res.cloudinary.com/hebronfarms/image/upload/v1574240977/Hebron/images/shared-on-2-nov-2019/IMG_1416_w3ktmg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

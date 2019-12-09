@@ -34,6 +34,8 @@ body {
   padding-left: 0.7em;
   padding-right: 0.7em;
   -webkit-transition: 0.35s;
+
+  border-radius: 5px;
 }
 
 .navbar-brand {
@@ -71,6 +73,7 @@ section.intro {
   margin: 2em 0;
 
   h1 {
+    font-weight: 900;
     margin-bottom: 1em;
   }
 }

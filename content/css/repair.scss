@@ -1,7 +1,6 @@
 body {
   font-size: 1.2rem;
   font-family: "Nunito", sans-serif;
-  // font-family: "Noto Serif", serif;
   line-height: 2;
 }
 
@@ -20,4 +19,65 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  /* color: #000; */
+
+  font-size: 1.15rem;
+  font-weight: 700;
+
+  line-height: 1;
+  transition: 0.35s;
+  padding-bottom: 0.7em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  -webkit-transition: 0.35s;
+
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  img {
+    height: 50px;
+  }
+}
+
+.testimonial-card {
+  padding: 0 1em 2em;
+  .avatar {
+    margin-top: 2em;
+    height: 10em;
+    width: 10em;
+    object-fit: cover;
+  }
+
+  .card-body {
+    h4 {
+      font-weight: 900;
+      letter-spacing: 2px;
+    }
+    h5 {
+      color: #888888;
+      font-weight: bold;
+    }
+    hr,
+    p {
+      display: none;
+    }
+  }
+}
+
+section.intro {
+  margin: 2em 0;
+
+  h1 {
+    font-weight: 900;
+    margin-bottom: 1em;
+  }
+}
+
+footer {
+  margin-top: 4em;
 }

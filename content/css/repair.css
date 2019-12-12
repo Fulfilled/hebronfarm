@@ -20,10 +20,57 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-/*# sourceMappingURL=repair.css.map */
-.banner-1 {
-  background-image: url(../../content/images/homePage/banner.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
+.navbar.navbar-light .breadcrumb .nav-item .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  /* color: #000; */
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1;
+  transition: 0.35s;
+  padding-bottom: 0.7em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  -webkit-transition: 0.35s;
+  border-radius: 5px;
 }
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.testimonial-card {
+  padding: 0 1em 2em;
+}
+
+.testimonial-card .avatar {
+  margin-top: 2em;
+  height: 10em;
+  width: 10em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.testimonial-card .card-body h4 {
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.testimonial-card .card-body h5 {
+  color: #888888;
+  font-weight: bold;
+}
+
+section.intro {
+  margin: 2em 0;
+}
+
+section.intro h1 {
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+
+footer {
+  margin-top: 4em;
+}
+/*# sourceMappingURL=repair.css.map */

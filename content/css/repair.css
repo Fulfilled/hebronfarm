@@ -61,11 +61,6 @@ body {
   font-weight: bold;
 }
 
-.testimonial-card .card-body hr,
-.testimonial-card .card-body p {
-  display: none;
-}
-
 section.intro {
   margin: 2em 0;
 }

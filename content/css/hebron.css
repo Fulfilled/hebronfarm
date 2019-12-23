@@ -4,6 +4,12 @@
 .navbar {
   background-color: #488f47;
 }
+.card {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .cardcontainer {
   padding: 0 5rem;
 }

@@ -104,3 +104,8 @@ hr {
 .border-2x {
   border-width: 2px;
 }
+.frequent{
+  padding-top: 2em;
+  background-color: E4F0E4;
+  height: 5em;
+}

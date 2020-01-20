@@ -118,19 +118,11 @@ figcaption {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .jumbotron {
-.card-image {
-  height: 480px;
-  object-fit: cover;
-  object-position: left;
-    }
-  }
-  .h3-responsive {
-    font-size: 14px;
-  }
-}
-
 footer {
   margin-top: 4em;
 }
+// .jumbotron {
+//   background-image: url(./CONTENT/images/homePage/banner.jpg);
+//   background-size: cover;
+//   height: 100%;
+// }

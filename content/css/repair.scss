@@ -73,11 +73,56 @@ section.intro {
   margin: 2em 0;
 
   h1 {
-    font-weight: 900;
+    // font-weight: 900;
     margin-bottom: 1em;
+  }
+}
+
+.about-banner {
+  min-height: 220px;
+  object-position: center;
+  object-fit: cover;
+}
+
+figcaption {
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+.product {
+  margin-bottom: 3em !important;
+  .card-text {
+    margin-bottom: 1em;
+    font-size: 1em !important;
+    color: #444444 !important;
+  }
+}
+
+.carousel-item {
+  .d-block {
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-item {
+    .d-block {
+      height: 230px;
+    }
+  }
+  .h3-responsive {
+    font-size: 14px;
   }
 }
 
 footer {
   margin-top: 4em;
 }
+// .jumbotron {
+//   background-image: url(./CONTENT/images/homePage/banner.jpg);
+//   background-size: cover;
+//   height: 100%;
+// }

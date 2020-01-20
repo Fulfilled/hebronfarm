@@ -66,8 +66,61 @@ section.intro {
 }
 
 section.intro h1 {
-  font-weight: 900;
   margin-bottom: 1em;
+}
+
+.about-banner {
+  min-height: 220px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+figcaption {
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+.product {
+  margin-bottom: 3em !important;
+}
+
+.product .card-text {
+  margin-bottom: 1em;
+  font-size: 1em !important;
+  color: #444444 !important;
+}
+
+.carousel-item .d-block {
+  height: 480px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-item .d-block {
+    height: 230px;
+  }
+  .h3-responsive {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .jumbotron .card-image {
+    height: 480px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+  }
+  .h3-responsive {
+    font-size: 14px;
+  }
 }
 
 footer {

@@ -5,10 +5,10 @@
   background-color: #488f47;
 }
 .card {
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .cardcontainer {
   padding: 0 5rem;
@@ -104,8 +104,13 @@ hr {
 .border-2x {
   border-width: 2px;
 }
-.frequent{
+.frequent {
   padding-top: 2em;
   background-color: E4F0E4;
   height: 5em;
 }
+/* .jumbotron {
+  background-image: url(./CONTENT/images/homePage/banner.jpg);
+  background-size: cover;
+  height: 100%;
+} */
